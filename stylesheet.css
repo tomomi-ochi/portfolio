@@ -25,7 +25,7 @@ a:hover {
 }
 /*_____*/
 
-.nav-li,.name,h2,.skills-box,footer {
+.nav-li,.name,h2,.skills-box,.footer {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -42,7 +42,8 @@ img {
 
 .menu li {
   float: left;
-  margin-right: 25px;
+  margin: 30px 25px 0 0;
+  letter-spacing: 1.5px;
   
 }
 /*_____*/
@@ -131,6 +132,7 @@ h2 {
 #about {
   height: 400px;
 /*  background-color: #F5F5DC;*/
+  font-family: ;
 }
 
 .about-image {
@@ -145,6 +147,7 @@ h2 {
 /* _____contact_____ */
 #contact {
   margin: 50px 0;
+  font-family: ;
 }
 
 .contact-box {
@@ -154,12 +157,12 @@ h2 {
 
 .contact-icon {
   display: inline-block;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  border-radius: 50%;
-  background-color: #F0F8FF;
-  font-size: 15px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 45%;
+  background-color: #dcdcdc;
+  
 }
 
 /* _____footer_____ */
@@ -187,8 +190,8 @@ footer {
   
 /* _____navigation_____ */
   .menu-btn {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: #F5F5F5;
     position: fixed;
     top: 0;
@@ -238,9 +241,10 @@ footer {
     top: 0;
     right: 0;
     background-color: #F5F5F5;
-    width: 50px;
+    width: 90px;
     z-index: 2;
     letter-spacing: 1px;
+    font-size: 4vw;
   }
   
   .menu ul {
@@ -283,6 +287,7 @@ footer {
   .name h1 {
     padding: 250px 0 0;
     margin-bottom: 0;
+    font-size: 12vw;
   }
   
   .logo {
@@ -297,8 +302,7 @@ footer {
   }
   
   #works {
-    padding-bottom: 420px;
-    
+    padding-bottom: 520px;
   }
   
   .works01,.works02 {
@@ -329,6 +333,10 @@ footer {
     padding-left: 0;
   }
   
+  #skills h2 {
+    padding: 20px 0;
+  }
+  
 /* _____about_____ */
   .about-box p {
     width: 85%;
@@ -336,5 +344,9 @@ footer {
     padding: 10px 5px;
     letter-spacing: 0.1em;
     line-height: 1.5em;
+  }
+  
+  #about {
+    padding: 0 40px 35px;
   }
 }
