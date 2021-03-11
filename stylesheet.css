@@ -74,7 +74,7 @@ h2 {
 }
 
 .logo {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0 0 320px;
 }
 
@@ -156,18 +156,35 @@ h2 {
 }
 
 .contact-icon {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 45%;
-  background-color: #dcdcdc;
-  
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    -webkit-flex: 1;
+            flex: 1;
+    padding: 20px;
 }
+
+#contact i {
+  font-size: 2rem;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    padding-top: 9px;
+    text-align: center;
+    color: #ffffff;
+  -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+          border-radius: 50%;
+    background-color: #14c0c9;
+}
+
 
 /* _____footer_____ */
 footer {
   padding: 10px 0;
+  background-color: #a99e93;
 }
 
 
@@ -241,10 +258,9 @@ footer {
     top: 0;
     right: 0;
     background-color: #F5F5F5;
-    width: 90px;
+    width: 35%;
     z-index: 2;
-    letter-spacing: 1px;
-    font-size: 4vw;
+    font-size: 5vw;
   }
   
   .menu ul {
@@ -291,6 +307,7 @@ footer {
   }
   
   .logo {
+    font-size: 4.5vw;
     margin: 0 0 100px;
   }
  
